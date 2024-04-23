@@ -1,0 +1,89 @@
+/* 全体の設定 */
+body {
+    font-family: 'Darumadrop One', sans-serif;
+    color: #333;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff4d6d;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav {
+    background-color: #ffccd5;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+    background-color: #ff4d6d;
+    color: #ffffff;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #ffccd5;
+    color: #333;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffe5e9;
+}
+
+input[type="submit"] {
+    background-color: #ff4d6d;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: #e0446d;
+}
+
+.profile_img {
+    height: 200px;
+}
